@@ -1,0 +1,47 @@
+name: melhor_combustivel
+description: Flutter project, developed for the evaluation of Mobile and Hybrid Technologies.
+
+publish_to: 'none' 
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+#Dependecias utilizadas no projeto.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_masked_text: ^0.8.0 #Responsável pela máscara monetária.
+  auto_size_text: ^2.1.0      #Responsável pelo texto responsivo.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  #Imagens utilizadas no projeto.
+  assets:
+    - assets/images/logo.png
+    - assets/images/posto.png
+    - assets/images/edge.png
+
+  #Fontes utilizadas no projeto.
+  fonts:
+    - family: InterBold
+      fonts:
+        - asset: assets/fonts/Inter-Bold.otf
+    - family: InterMedium
+      fonts:
+        - asset: assets/fonts/Inter-Medium.otf
+    - family: InterSemiBold
+      fonts:
+        - asset: assets/fonts/Inter-SemiBold.otf
+    - family: JetJane
+      fonts:
+        - asset: assets/fonts/jet-jane-mono.ttf
